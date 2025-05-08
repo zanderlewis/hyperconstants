@@ -9,7 +9,6 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
-settings.xml
 
 # Compiled class files
 *.class
@@ -26,7 +25,7 @@ settings.xml
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
 
@@ -56,3 +55,6 @@ replay_pid*
 
 # JRebel
 rebel.xml
+
+# Other
+.env

@@ -13,11 +13,22 @@ public final class HyperConstants {
     private static final BigDecimal TWO = new BigDecimal("2");
     private static final BigDecimal FOUR = new BigDecimal("4");
 
+    /** The mathematical constant PI (π) with 8192 digits of precision. */
     public static final BigDecimal PI;
+    
+    /** The golden ratio (φ) with 8192 digits of precision. */
     public static final BigDecimal PHI;
-    public static final BigDecimal GOLDEN_RATIO; // Alias for PHI
+    
+    /** Alias for PHI - the golden ratio (φ) with 8192 digits of precision. */
+    public static final BigDecimal GOLDEN_RATIO;
+    
+    /** The mathematical constant E (Euler's number) with 8192 digits of precision. */
     public static final BigDecimal E;
+    
+    /** The mathematical constant TAU (τ = 2π) with 8192 digits of precision. */
     public static final BigDecimal TAU;
+    
+    /** The speed of light in vacuum (c) in meters per second. */
     public static final BigDecimal C;
 
     static {
